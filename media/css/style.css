@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/************************** Navigation Section Start ********************************/
+.navbar {
+    background-color: #222222 !important;
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.navbar a:hover {
+    opacity: 1;
+    background-color: #111111 !important;
+    color: #fff !important;
+}
+
+.navbar span {
+    background-color: #fff !important;
+}
+
+
+/************************** Navigation Section End ********************************/
+
+/************************** Header Section Start ********************************/
+.header {
+    width: 100%;
+    height: 650px;
+    padding: 30px 0px 30px;
+    margin-top: 0px;
+    background-image: url(../images/amar3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header img {
+    width: 550px;
+    height: 350px;
+    margin: 70px 0 0 40px;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.header h1,
+.header p,
+.header button {
+    margin-top: 20px;
+}
+
+.header .btn {
+    border-radius: 0;
+    margin: 40px 10px;
+}
+
+.header .btn:hover {
+    background-color: grey !important;
+}
+
+/************************** Header Section End ********************************/
+
+
+
+/************************** Service Section Start ********************************/
+.services {
+    padding: 80px 0 80px;
+    text-align: center;
+}
+
+.services h2,
+.services h4 {
+    text-transform: uppercase;
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.services p {
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.services i {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+/************************** Service Section End ********************************/
+
+
+/************************** Pricing Section Start ********************************/
+
+.pricing {
+    padding: 50px 0 80px;
+    text-align: center;
+    background-color: #3399ff;
+}
+
+.pricing h2,
+.pricing p {
+    color: #fff;
+}
+
+.pricing p {
+    padding-bottom: 40px;
+}
+
+.pricing .packages {
+    padding: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.packages li {
+    display: block;
+    list-style: none;
+    padding: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b {
+    color: #4c4c4c;
+}
+
+.packages p,
+.packages li {
+    color: #737373;
+}
+
+.packages button {
+    margin-top: 10px;
+}
+
+/************************** Pricing Section End ********************************/
+
+
+
+/************************** Team Section Start ********************************/
+
+.team {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.team h2,
+.team h4,
+.team b {
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+.team p {
+    color: #737373;
+}
+
+.team img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+.team i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 5px;
+    background-color: #a0db8e;
+    color: #fff;
+}
+
+.team a:hover i {
+    background-color: #709963;
+}
+
+/************************** Team Section End ********************************/
+
+
+/************************** Client Section Start ********************************/
+.clients {
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color: #fff;
+}
+
+.clients h2 {
+    color: #5e5e5e;
+}
+
+.clients p {
+    padding-bottom: 40px;
+}
+
+.clients img {
+    width: 200px;
+    height: 130px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 2px solid #000;
+    opacity: 1;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: all 500s ease-in-out;
+}
+
+.clients li {
+    list-style: none;
+}
+
+.clients li img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/************************** Client Section End ********************************/
+
+
+/************************** Contact Section End ********************************/
+.contact {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    padding-bottom: 50px;
+    color: #737373;
+}
+
+.contact h2 {
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    border-radius: 0 !important;
+}
+
+.contact span {
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #ff0088;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    background-color: #a85959;
+    color: #fff !important;
+}
+
+/************************** Contact Section End ********************************/
+
+
+/************************** Footer Section Start ********************************/
+.footer {
+    padding: 30px;
+    background-color: #222222;
+    color: #cccccc;
+}
+
+.footer .social {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc !important;
+    color: #000 !important;
+}
+
+.footer .btn {
+    padding: 10px 10px 10px;
+    margin: -3px 0 0 5px;
+}
+
+/************************** Footer Section End ********************************/
+
+
+
+@media(max-width:768px) {
+    .navbar li a {
+        text-align: center;
+    }
+
+    .header {
+        padding: 30px;
+        height: 750px;
+    }
+
+    .header img {
+        width: 90%;
+        height: 300px;
+        margin: 20px 0 0 20px;
+    }
+
+    .header .btn {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header p {
+        font-size: 10px;
+    }
+
+    .services {
+        padding: 30px;
+    }
+
+    .pricing {
+        padding: 30px;
+    }
+
+    .packages {
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    .team {
+        padding: 30px;
+    }
+
+    .clients {
+        padding: 30px;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+}
